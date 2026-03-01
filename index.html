@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <style>
+/* Backbone CSS for Resume Template 1 */
+
+/* Basic */
+
+#vue-smart-pages-preview {
+  background-color: white;
+  color: black;
+  text-align: left;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+#vue-smart-pages-preview p,
+#vue-smart-pages-preview li,
+#vue-smart-pages-preview dl {
+  margin: 0;
+}
+
+/* Headings */
+
+#vue-smart-pages-preview h1,
+#vue-smart-pages-preview h2,
+#vue-smart-pages-preview h3 {
+  font-weight: bold;
+}
+
+#vue-smart-pages-preview h1 {
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+
+#vue-smart-pages-preview h2,
+#vue-smart-pages-preview h3 {
+  margin-bottom: 0.25em;
+  margin-top: 1.0em;
+  font-size: 1.2em;
+}
+
+#vue-smart-pages-preview h1,
+#vue-smart-pages-preview h2 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: darkgrey;
+}
+
+/* Lists */
+
+#vue-smart-pages-preview ul,
+#vue-smart-pages-preview ol {
+  padding-left: 1.5em;
+  margin: 0.2em 0 1.0em 0;
+}
+
+#vue-smart-pages-preview ul {
+  list-style-type: disc;
+}
+
+#vue-smart-pages-preview ol {
+  list-style-type: decimal;
+}
+
+/* Definition Lists */
+
+#vue-smart-pages-preview dl {
+  display: flex;
+}
+
+#vue-smart-pages-preview dl dt,
+#vue-smart-pages-preview dl dd:not(:last-child) {
+  flex: 1;
+}
+
+/* Tex */
+
+#vue-smart-pages-preview :not(span.katex-display) > span.katex {
+  font-size: 1em !important;
+}
+
+/* SVG & Images */
+
+#vue-smart-pages-preview svg.iconify {
+  vertical-align: -0.2em;
+}
+
+#vue-smart-pages-preview img {
+  max-width: 100%;
+}
+
+/* Header */
+
+#vue-smart-pages-preview .resume-header {
+  text-align: center;
+}
+
+#vue-smart-pages-preview .resume-header h1 {
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+#vue-smart-pages-preview .resume-header-item:not(.no-separator)::after {
+  content: " | ";
+}
+
+/* Citations */
+
+#vue-smart-pages-preview ul.crossref-list {
+  padding-left: 1.2em;
+}
+
+#vue-smart-pages-preview li.crossref-item p {
+  margin-left: 0.5em;
+}
+
+#vue-smart-pages-preview li.crossref-item::marker {
+  content: attr(data-caption);
+}
+
+#vue-smart-pages-preview sup.crossref-ref {
+  font-size: 100%;
+  top: 0;
+}
+
+/* Dark & print mode */
+
+.dark #vue-smart-pages-preview {
+  background-color: #334155;
+  color: #e5e7eb;
+}
+
+@media print {
+  #vue-smart-pages-preview {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  .dark #vue-smart-pages-preview a {
+    color: black !important;
+  }
+}
+
+    /* Dynamic Styles */
+    body {
+      font-family: Verdana, HKST;
+      font-size: 12px;
+      background-color: #f5f5f5;
+      color: black;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    #vue-smart-pages-preview {
+      background-color: white;
+      width: 793px;
+      max-width: 100%;
+      padding: 55px 45px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+    }
+    
+    :not(.resume-header-item) > a {
+      color: #000000;
+    }
+    
+    h1, h2, h3 {
+      color: #000000;
+    }
+    
+    h1, h2 {
+      border-bottom-color: #000000;
+    }
+    
+    p, li {
+      line-height: 1.30;
+    }
+    
+    h2, h3 {
+      line-height: 1.50;
+    }
+    
+    dl {
+      line-height: 1.35;
+    }
+    
+    h2 {
+      margin-top: 5px;
+    }
+    
+    @media print {
+      body {
+        background-color: white;
+        padding: 0;
+        margin: 0;
+      }
+      
+      #vue-smart-pages-preview {
+        width: 100%;
+        max-width: none;
+        box-shadow: none;
+        margin: 0;
+        padding: 55px 45px;
+      }
+      
+      @page {
+        size: A4;
+        margin: 0;
+      }
+    }
+  
+  </style>
+</head>
+<body>
+  <main id="vue-smart-pages-preview">
+<div class="resume-header"><h1>Sachindra Singh</h1>
+<span class="resume-header-item no-separator"><span style="font-size: 1.2em; font-weight: bold;"></span>
+</span>
+<br>
+<span class="resume-header-item"><span class="iconify" data-icon="tabler:phone"></span> (+679) 9920 987</span>
+<span class="resume-header-item"><a href="mailto:sachindra.singh.fj@icloud.com" target="_blank" rel="noopener noreferrer"><span class="iconify" data-icon="tabler:mail"></span> sachindra.singh.fj@icloud.com</a></span>
+<span class="resume-header-item"><a href="https://github.com/sopac" target="_blank" rel="noopener noreferrer"><span class="iconify" data-icon="tabler:brand-github"></span> sopac</a></span>
+<span class="resume-header-item no-separator"><a href="https://sopac.github.io" target="_blank" rel="noopener noreferrer"><span class="iconify" data-icon="charm:person"></span> https://sopac.github.io</a></span>
+</div><h2>Professional Summary</h2>
+<p>Earth Observations, Geospatial Systems Architect, Agentic AI Developer, Team Lead, and Cloud-Native Systems Engineer with 20 years of experience delivering enterprise-level cloud-native web and data-intensive platforms across the Pacific region. Deep expertise in open-source geospatial systems, AI machine-learning pipelines, earth observation workflows, disaster risk analytics, and resilient data platforms. Strong advocate for open data, open-source technology, and capacity building for sustainable development.</p>
+<p>Long-standing technical project delivery experience across Pacific Island countries and across development sectors.
+Extensive history of government-wide technical workshops and capacity building in GIS, remote sensing, and earth observation systems.</p>
+<h2>Experience</h2>
+<p><strong>Team Leader, Geoinformatics / Earth and Oceans Observation Programme</strong></p>
+<dl>
+<dt>Pacific Community (SPC), GEM Division</dt>
+<dd>2021 - Present</dd>
+</dl>
+<ul>
+<li>Leading technical delivery of regional geospatial and earth observation systems across Pacific Island countries</li>
+<li>Technical lead for Digital Earth Pacific (DEP)</li>
+<li>Driving open data and interoperability approaches for decision-support platforms in disaster risk and climate resilience</li>
+<li>Implemented and deployed National Spatial Data Infrastructure (SDI) across several Pacific Island countries.</li>
+</ul>
+<br/>
+<p><strong>Senior Geospatial Systems Architect</strong></p>
+<dl>
+<dt>Pacific Community (SPC), GEM Division</dt>
+<dd>2015 - 2020</dd>
+</dl>
+<ul>
+<li>Architected and delivered enterprise geospatial and risk-information platforms for regional and national programmes</li>
+<li>Led development of cloud-native and big-data analytical systems for earth observation applications</li>
+<li>Supported key platforms including Pacific Risk Information System and Pacific Ridge to Reef initiatives</li>
+</ul>
+<br/>
+<p><strong>ICT Systems Developer</strong></p>
+<dl>
+<dt>Pacific Islands Applied Geoscience Commission (SOPAC/SPC)</dt>
+<dd>2008 - 2014</dd>
+</dl>
+<ul>
+<li>Built and maintained geospatial, web, and database systems for disaster, ocean, and energy work programmes</li>
+<li>Implemented platforms including Pacific Disaster Net and Geonetwork services</li>
+<li>Delivered tools supporting regional data sharing and reporting</li>
+</ul>
+<br/>
+<p><strong>Lead Systems Developer / Analyst</strong></p>
+<dl>
+<dt>South Pacific Infotech Limited (SPIL)</dt>
+<dd>2005 - 2008</dd>
+</dl>
+<ul>
+<li>Delivered enterprise software systems and workflow solutions for public and private sector clients</li>
+<li>Developed and integrated web, database, and reporting applications across multiple domains</li>
+</ul>
+<br/>
+<p><strong>Programmer / Data Analyst</strong></p>
+<dl>
+<dt>E-Tech Systems Limited</dt>
+<dd>2004 - 2005</dd>
+</dl>
+<ul>
+<li>Built business software and reporting modules, including legacy system conversion and data migration work</li>
+</ul>
+<h2>Education</h2>
+<dl>
+<dt><strong>Victoria University of Wellington</strong></dt>
+<dd>Wellington, New Zealand</dd>
+</dl>
+<dl>
+<dt>Bachelor of Science (Computer Science)</dt>
+<dd>1999 - 2003</dd>
+</dl>
+<h2>Selected Projects</h2>
+<ul>
+<li><strong>Digital Earth Pacific (DEP):</strong> https://www.digitalearthpacific.org/</li>
+<li><strong>Pacific Data Hub Nexus:</strong> https://nexus.pacificdata.org</li>
+<li><strong>Pacific Risk Information System:</strong> https://nexus.pacificdata.org</li>
+<li><strong>PacSAFE Rapid Impact Assessment:</strong> http://www.pacgeo.org/pacsafe</li>
+<li><strong>Pacific Ridge to Reef State of the Coast:</strong> http://r2r.spc.int</li>
+<li><strong>Pacific Ocean Portal (Migration and Platform support):</strong> http://oceanportal.spc.int/</li>
+<li><strong>Pacific Disaster Net / Regional DRM platforms:</strong> https://www.pacificdisaster.net</li>
+</ul>
+<h2>Leadership, Advisory, and Community Roles</h2>
+<ul>
+<li>Founding Board Member, <strong>Pacific GIS and Remote Sensing Council</strong> (2010–2022)</li>
+<li>Member <strong>Planet Labs Asia-Pacific Customer Advisory Board</strong></li>
+<li>Industry Steering Committee Member, <strong>School of Computing, Information and Mathematical Sciences</strong>, University of the South Pacific</li>
+<li>Founding Member, <strong>Oceania Geospatial Symposium (OGS)</strong></li>
+<li>Steering Group Member <strong>SPC Data Governance Working Group</strong></li>
+</ul>
+<h2>Skills</h2>
+<p><strong>Programming Languages:</strong> Python, Java, Rust, TypeScript, C++, Rust, C#, Swift, Kotlin</p>
+<p><strong>AI and Data Analytics:</strong> Model Fine-Tuning, PyTorch, LangChain, HuggingFace, Jupyter NoteBook, Pandas, R</p>
+<p><strong>Web and App Development Frameworks:</strong> Angular, NextJS, Svelte, Native iOS, Native Android, Flutter</p>
+<p><strong>Tools and Frameworks:</strong> Linux, AWS, Azure, Docker, Kubernetes, PostgreSQL, PostGIS, GeoServer, QGIS, GeoNetwork, OGC Web Services</p>
+<p><strong>Domain Expertise:</strong> Earth observation analytics, geospatial platform architecture, disaster risk information systems, open data, technical team leadership and capacity building</p>
+
+  </main>
+</body>
+</html>
