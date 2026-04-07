@@ -84,8 +84,8 @@
     .contact-bar {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
-      gap: 6px 20px;
+      flex-wrap: nowrap;
+      gap: 6px 14px;
       margin-top: 12px;
       font-size: 0.88em;
     }
@@ -94,6 +94,7 @@
       display: inline-flex;
       align-items: center;
       gap: 5px;
+      white-space: nowrap;
       color: var(--text-secondary);
       text-decoration: none;
       transition: color 0.2s;
@@ -306,6 +307,12 @@
       text-decoration: underline;
     }
 
+    @media (max-width: 860px) {
+      .contact-bar {
+        flex-wrap: wrap;
+      }
+    }
+
     /* Print */
     @media print {
       body {
@@ -470,6 +477,8 @@
         <span class="contact-divider">|</span>
         <a class="contact-item" href="https://github.com/sopac" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> sopac</a>
         <span class="contact-divider">|</span>
+        <a class="contact-item" href="https://twitter.com/sachin1618" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i> @sachin1618</a>
+        <span class="contact-divider">|</span>
         <a class="contact-item" href="https://sopac.github.io" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> sopac.github.io</a>
       </div>
     </div>
@@ -486,6 +495,8 @@
         and across development sectors.
         Extensive history of government-wide technical workshops and capacity building in GIS, remote sensing, and earth
         observation systems.</p>
+      <p>Managed multidisciplinary teams of up to 20 staff and coordinated geographically-dispersed consultants and service providers for IT systems and product delivery. 
+        Certified in PRINCE2 project management, with strong experience in financial planning, budgeting, vendor management, and ISP, cloud vendor, telecommunications coordination, and a consistent track record of reporting programme performance, risks, and delivery progress to senior management and governance boards.</p>
     </div>
 
     <!-- Experience -->
